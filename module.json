@@ -1,0 +1,11 @@
+{
+    "name": "SystemInfo",
+    "alias": "systeminfo",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SystemInfo\\Providers\\SystemInfoServiceProvider"
+    ],
+    "files": []
+}

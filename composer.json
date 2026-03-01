@@ -1,0 +1,38 @@
+{
+    "name": "fatihalp/php-prod-optimizer",
+    "description": "PHP Production Optimizer - System Info Module",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "system-info",
+        "filament"
+    ],
+    "authors": [
+        {
+            "name": "Fatih Alp"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SystemInfo\\Providers\\SystemInfoServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SystemInfo\\": "app/",
+            "Modules\\SystemInfo\\Database\\Factories\\": "database/factories/",
+            "Modules\\SystemInfo\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SystemInfo\\Tests\\": "tests/"
+        }
+    }
+}
